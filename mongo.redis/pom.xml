@@ -8,11 +8,11 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mongo.service</groupId>
+	<groupId>com.demo.service</groupId>
 	<artifactId>mongo.redis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mongo.redis</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Mongo with Redis</description>
 
 	<properties>
 		<java.version>1.8</java.version>
