@@ -1,5 +1,6 @@
 package com.mongo.redis.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 import org.springframework.data.annotation.Id;
@@ -12,8 +13,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Document(value = "books")
-public class Book {
+public class Book implements Serializable {
 
+  private static final long serialVersionUID = -1006562029888045860L;
   @Id
   private String _id;
   private String title;
